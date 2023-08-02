@@ -23,7 +23,7 @@ void bubble_sort(int arr[],int n)
 int main()
 {
     int n =0;
-    cin>> n;
+    cin>> n; // size of array to be sorted
     int arr[n];
     for(int i=0;i<n;i++)
     {
@@ -36,5 +36,5 @@ int main()
     {
         cout<<arr[i]<<" ";
     }
-
+return 0;
 }
